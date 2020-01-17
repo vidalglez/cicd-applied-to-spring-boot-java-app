@@ -15,7 +15,7 @@
 	<description>Implementing CI/CD on Spring Boot Java App</description>
 
 	<properties>
-		<java.version>11</java.version>
+		<java.version>8</java.version>
 		<maven.deploy.skip>true</maven.deploy.skip>		
 	</properties>
 
