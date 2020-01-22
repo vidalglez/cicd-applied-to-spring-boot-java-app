@@ -26,10 +26,10 @@ script:
 #deploying the app on Docker & Heroku
 - mvn deploy
 #- mvn heroku:deploy
-#after_success:
+after_success:
 #Generating Site
-#- travis_wait mvn site
-#- bash <(curl -s https://codecov.io/bash)
+- travis_wait mvn site
+- bash <(curl -s https://codecov.io/bash)
 # SonarCloud
 # the following command line builds the project, runs the tests with coverage and then execute the SonarCloud analysis
 #- mvn clean org.jacoco:jacoco-maven-plugin:prepare-agent install sonar:sonar
