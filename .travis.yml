@@ -12,7 +12,7 @@ addons:
   sonarcloud:
     organization: "vg-cicd-applied-to-spring-boot-java-app"
     token:
-      secure: $SONAR_TOKEN # encrypted value of your token
+      secure: "e6dz86Ki8XJk3wcADZ1Zo7qRVcX15ggqSoGMXdnTCD99tphMfSc5c68MNw+eAucNGEuiKat5zBNQ+jEOsI/v6ux4WH2/uxvfnbROrc7UkrmXUJ1apTFoL4dh/aqMS3zzIEC59qWSAQsiqMfyAjLNF3hK0M3LGC7nxABdIgcv7rYcbkBJQJr53U1ze/jo2QEdNtlf40zURhqx0OiObH3vCbEHJEyQEmWFHwMHZ10uB0BMjWR1aWag9duGLGCdzibiNA+xvHuSPheJWkvt+awH04ZpqcmtXWP4c701zOwGJT2m4anaY+IVraN1B6VZYI2hRs9rtZS+JNdg1S7M/uTOD160BoBtbygHIZ5bw2xAlpwI8hQcCmrROMh9gnNgrD2aY+EQ5ZdPPmXe7ahKBCT8g0jgeEsERc4kE/aF81ttBuxRlBFlq/VBiag6e0n372IsifagqTwicYB3AIfc+Ylsf/u2v2gx6DifaaHzPKhFW4PkIED2We5S3Lb7s1O3Teqr/PGTUhizyv0e50jpIn0cR5/6cEg5x5uO1HTOWG9HJcPXHuvUzch56yFDtpj//+Q8kHPt8aF7bNUa1re01CfbZ9xNtLRqGtQM2+gSJWwgKt1scSb1u4tfeMp4iwiP+cyQ+hC6EFaId+U15+h8FAJVtaA83M4ySWicAV/1mVI64Jo="
 
 before_install:
 - mvn clean
